@@ -1,0 +1,52 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); 
+    La otra manera de importar la fuente
+*/
+.caja {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: #6b7280;
+}
+
+/* Tipografias */
+.font-fa p {
+  margin: 0;
+  font-family: "Indie Flower";
+}
+
+.font-we p {
+  font-weight: bold;
+}
+
+.font-style {
+  font-style: italic;
+}
+
+.font-size {
+  font-size: 2rem;
+}
+
+.letter-spacing {
+  letter-spacing: 10px;
+}
+
+.word-spacing {
+  word-spacing: 10px;
+}
+
+.line-height {
+  line-height: 55px;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.text-transform {
+  text-transform: uppercase;
+}
+
+.text-decoration {
+  text-decoration: underline;
+}

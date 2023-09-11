@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://renderer-v2.vercel.app/_next/image?url=https%3A%2F%2Fapi.typedream.com%2Fv0%2Fdocument%2Fpublic%2Fac4f6f0d-8160-4e58-9d18-cb5e7c880fb6_Recurso_32_png.png&w=384&q=75"
+    />
+    <!-- Estilos Base -->
+    <link
+      rel="stylesheet"
+      href="https://res.cloudinary.com/dcatzxqqf/raw/upload/v1659451742/coding/Dise%C3%B1oWebCDN/cdn_1_sjhqe3.css"
+    />
+    <!-- Estilos Clase -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Transform</title>
+  </head>
+  <body>
+    <main class="max-width">
+      <h1>
+        Transform
+        <img
+          src="https://renderer-v2.vercel.app/_next/image?url=https%3A%2F%2Fapi.typedream.com%2Fv0%2Fdocument%2Fpublic%2Fac4f6f0d-8160-4e58-9d18-cb5e7c880fb6_Recurso_32_png.png&w=384&q=75"
+          alt="logo"
+          class="logo"
+        />
+      </h1>
+      <section class="info-clase">
+        <h3>transform:translate()</h3>
+        <p class="my">Cambiamos la ubicacion del objeto.</p>
+        <p class="code">transform:translate(10px,20px)</p>
+        <div class="bg-secondary my flex">
+          <div class="caja translateX"></div>
+          <div class="caja translateY"></div>
+          <div class="caja translate"></div>
+        </div>
+        <hr class="hr" />
+        <h3>transform:rotate()</h3>
+        <p class="my">
+          La rotación nos permite girar un objeto sin deformarlo.
+        </p>
+
+        <p class="code">transform:rotate(360deg)</p>
+        <div class="bg-secondary my flex">
+          <div class="caja rotate"></div>
+          <div class="caja rotate-negative"></div>
+        </div>
+        <p class="my">
+          Tambien tenemos rotaciones en
+          <b>rotateX,rotateY y rotateZ</b>
+        </p>
+
+        <hr class="hr" />
+        <h3>transform:scale()</h3>
+        <p class="my">Cambiamos la escala del objeto.</p>
+        <p class="code">transform:scale(2,1)</p>
+        <div class="bg-secondary my flex">
+          <div class="caja scaleX"></div>
+          <div class="caja scaleY"></div>
+          <div class="caja scale"></div>
+        </div>
+
+        <!-- Skew -->
+        <h3>transform:skew()</h3>
+        <p class="my">Lo utilizamos para deformar objetos.</p>
+        <p class="code">transform:skew(20deg,10deg)</p>
+        <div class="bg-secondary my flex">
+          <div class="caja skewX"></div>
+          <div class="caja skewY"></div>
+          <div class="caja skew"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

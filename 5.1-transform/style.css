@@ -1,0 +1,53 @@
+.caja {
+  width: 200px;
+  height: 200px;
+  background: var(--rose);
+  border-radius: 1rem;
+}
+
+.translateX {
+  transform: translateX(30px);
+}
+
+.translateY {
+  transform: translateY(-30px);
+}
+
+.translate {
+  transform: translate(10px, 20px);
+}
+
+/* Rotate */
+.rotate {
+  transform: rotate(30deg);
+}
+
+.rotate-negative {
+  transform: rotate(-30deg);
+}
+
+/* Scale */
+.scaleX {
+  transform: scaleX(1.1);
+}
+
+.scaleY {
+  transform: scaleY(1.1);
+}
+
+.scale {
+  transform: scale(1.1);
+}
+
+/* Skew */
+.skewX {
+  transform: skewX(10deg);
+}
+
+.skewY {
+  transform: skewY(-20deg);
+}
+
+.skew {
+  transform: skew(10deg, 25deg);
+}

@@ -1,0 +1,26 @@
+body {
+  background-color: #131415;
+  font-family: sans-serif;
+}
+p {
+  color: #ff005c;
+}
+
+h1 {
+  color: green;
+}
+
+#idTitulo {
+  color: green !important;
+}
+#idTituloh2 {
+  color: #ff005c;
+}
+
+.classTituloh2 {
+  color: #8c54fb;
+}
+
+.parrafo {
+  color: #8c54fb;
+}

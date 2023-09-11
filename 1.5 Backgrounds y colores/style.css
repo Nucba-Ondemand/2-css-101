@@ -1,0 +1,45 @@
+.caja {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: #6b7280;
+}
+
+.bg-color {
+  background-color: crimson;
+}
+
+.bg-img {
+  background-image: url("./img/bg-pattern.jpg");
+  /* Explicar que acomodamos la imagen con estas dos props */
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-repeat {
+  background-image: url("./img/bg-repeat.png");
+  background-repeat: repeat;
+}
+
+.bg-attach {
+  background-image: url("./img/bg-pattern.jpg");
+  background-attachment: fixed;
+}
+
+.bg-position {
+  background-image: url("./img/bg-pattern.jpg");
+  background-size: contain;
+  background-position: center;
+}
+
+.bg-size {
+  background-image: url("./img/messi.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.color p {
+  margin: 0;
+  color: crimson;
+}

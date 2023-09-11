@@ -1,0 +1,98 @@
+/* Cajas que vamos a usar para los ejemplos de clase*/
+.caja-flex {
+    background: var(--purple);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+  }
+  
+  .caja-flex:nth-child(2) {
+    background-color: var(--rose);
+  }
+  
+  .caja-flex p {
+    margin: 0;
+  }
+  
+  /*Flex-direction*/
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .col-reverse {
+    flex-direction: column-reverse;
+  }
+  
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 250px;
+    background: var(--semi-gray);
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  
+  .no-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    max-width: 250px;
+    background: var(--semi-gray);
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  
+  .wrap-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .jc-start {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  
+  .jc-end {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .jc-center {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .jc-between {
+    display: flex;
+    justify-content: space-between;
+  }
+  .jc-around {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .jc-evenly {
+    display: flex;
+    justify-content: space-evenly;
+  }

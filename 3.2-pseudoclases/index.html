@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=
+    , initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="https://renderer-v2.vercel.app/_next/image?url=https%3A%2F%2Fapi.typedream.com%2Fv0%2Fdocument%2Fpublic%2Fac4f6f0d-8160-4e58-9d18-cb5e7c880fb6_Recurso_32_png.png&w=384&q=75" />
+  <!-- Estilos Base -->
+  <link rel="stylesheet"
+    href="https://res.cloudinary.com/dcatzxqqf/raw/upload/v1659451742/coding/Dise%C3%B1oWebCDN/cdn_1_sjhqe3.css" />
+  <!-- Estilos Clase -->
+  <link rel="stylesheet" href="style.css" />
+  <title>PseudoClases</title>
+</head>
+
+<body>
+  <main class="max-width">
+    <h1>
+      PseudoClases
+
+    </h1>
+    <section class="info-clase">
+      <h3>Hover</h3>
+
+      <p class="code">a { background-color: #e11d48; }</p>
+      <div class="bg-secondary">
+        <a href="#">Pasáme el mouse por encima</a>
+      </div>
+      <p class="code">a:hover{ background-color: #8c54fb; }</p>
+      <div class="bg-secondary">
+        <a href="#" class="hover">Pasáme el mouse por encima</a>
+      </div>
+      <hr class="hr my" />
+      <h3>Active | Link | Visited</h3>
+      <b>Active</b>
+
+      <p class="code">a:active { color: #e11d48; }</p>
+      <div class="bg-secondary my">
+        <a href="#" class="active">nucba.com.ar</a>
+      </div>
+      <b>visited</b>
+
+      <p class="code">a:visited { color: purple; }</p>
+      <div class="bg-secondary my">
+        <a href="#" class="visited">nucba.com.ar</a>
+      </div>
+      <b>link</b>
+
+      <p class="code">a:link {color: salmon; }</p>
+      <div class="bg-secondary my">
+        <a href="https://www.nucba.com.ar/" target="blank" class="link">nucba.com.ar</a>
+      </div>
+      <hr class="hr" />
+      <h3>Focus</h3>
+
+      <p class="code">
+        input:focus{ background: cornflowerblue; color: white }
+      </p>
+      <div class="bg-secondary my">
+        <input type="text" class="focus" placeholder="Ingresa tu nombre" />
+      </div>
+      <hr class="hr" />
+
+      <!-- First Child -->
+      <h3>First child</h3>
+
+      <div class="bg-secondary my">
+        <div class="first flex">
+          <div class="caja"></div>
+          <div class="caja"></div>
+        </div>
+      </div>
+
+      <!-- Last child -->
+      <h3>Last child</h3>
+
+      <div class="bg-secondary my">
+        <div class="last flex">
+          <div class="caja"></div>
+          <div class="caja"></div>
+        </div>
+      </div>
+
+      <!-- First of type -->
+      <h3>First of type</h3>
+
+      <div class="bg-secondary my">
+        <div class="first-of-type flex">
+          <div class="caja"></div>
+          <div class="caja"></div>
+        </div>
+      </div>
+
+      <!-- NTH CHILD -->
+      <h3>Nth child</h3>
+      <b>Odd</b>
+      <div class="bg-secondary my">
+        <div class="nth-child-odd flex">
+          <div class="caja"></div>
+          <div class="caja"></div>
+          <div class="caja"></div>
+          <div class="caja"></div>
+        </div>
+      </div>
+
+      <b>Even</b>
+      <div class="bg-secondary my">
+        <div class="nth-child-even flex">
+          <div class="caja"></div>
+          <div class="caja"></div>
+          <div class="caja"></div>
+          <div class="caja"></div>
+        </div>
+      </div>
+
+      <b>Con Numero</b>
+      <div class="bg-secondary my">
+        <div class="nth-child-number flex">
+          <div class="caja"></div>
+          <div class="caja"></div>
+          <div class="caja"></div>
+          <div class="caja"></div>
+        </div>
+      </div>
+
+      <b>Numero n</b>
+      <div class="bg-secondary my">
+        <div class="nth-child-n flex">
+          <div class="caja"></div>
+          <div class="caja"></div>
+          <div class="caja"></div>
+          <div class="caja"></div>
+          <div class="caja"></div>
+          <div class="caja"></div>
+        </div>
+      </div>
+
+      <b>Numero n + Numero</b>
+      <div class="bg-secondary my">
+        <div class="nth-child-number-n flex">
+          <div class="caja"></div>
+          <div class="caja"></div>
+          <div class="caja"></div>
+          <div class="caja"></div>
+          <div class="caja"></div>
+          <div class="caja"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

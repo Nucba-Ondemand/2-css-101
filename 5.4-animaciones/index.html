@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://renderer-v2.vercel.app/_next/image?url=https%3A%2F%2Fapi.typedream.com%2Fv0%2Fdocument%2Fpublic%2Fac4f6f0d-8160-4e58-9d18-cb5e7c880fb6_Recurso_32_png.png&w=384&q=75"
+    />
+    <!-- Estilos Base -->
+    <link
+      rel="stylesheet"
+      href="https://res.cloudinary.com/dcatzxqqf/raw/upload/v1659451742/coding/Dise%C3%B1oWebCDN/cdn_1_sjhqe3.css"
+    />
+    <!-- Estilos Clase -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Animaciones</title>
+  </head>
+  <body>
+    <main class="max-width">
+      <h2>Animaciones</h2>
+
+      <p class="my">
+        Necesitamos de
+        <b>Propiedad animation y @keyframes</b>
+      </p>
+      <hr class="hr" />
+      <h3>Pasos para crear una animación</h3>
+      <p class="my">Creamos una caja</p>
+      <div class="bg-secondary">
+        <div class="caja no-animada"></div>
+      </div>
+      <p class="my">
+        <b>@keyframes</b>
+      </p>
+      <p class="code">
+        @keyframes moverCaja { 0% { transform: translateX(0); } 100% {
+        transform: translateX(200px); } }
+      </p>
+
+      <ul class="list">
+        <li>👉<b>animation-name</b> nombre de la animación</li>
+        <li>👉<b>animation-duration</b> duración de la animación</li>
+      </ul>
+      <div class="bg-secondary">
+        <div class="caja animada"></div>
+      </div>
+
+      <p class="code">animation-iteration-count: 1|2|infinite</p>
+
+      <h3>¿Por qué vuelve de golpe?</h3>
+      <p class="my"><b>animation-direction</b> .</p>
+      <p class="code">
+        animation-direction: normal|reverse|alternate|alternate-reverse
+      </p>
+
+      <div class="bg-secondary">
+        <div class="caja animada alternada"></div>
+      </div>
+
+      <h3>Delay</h3>
+
+      <p class="code">animation-delay: 2s;</p>
+
+      <h3>Timing function</h3>
+      <p class="my">
+        <b>animation-timing-function</b>
+      </p>
+      <p class="code">
+        animation-timing-function: ease | ease-in | ease-in-out | ease-out |
+        linear;
+      </p>
+      <div class="bg-secondary">
+        <div class="caja animada alternada timing"></div>
+      </div>
+
+      <h3>Estado de la animación</h3>
+      <p class="my">
+        <b>animation-play-state</b>
+      </p>
+      <p class="code">elemento:hover { animation-play-state: paused;}</p>
+      <div class="bg-secondary my">
+        <div class="caja animada alternada paused"></div>
+      </div>
+      <b>⚡Shorthand⚡</b>
+      <p class="my">
+        Podemos resumir todas las propiedades en una sola <b>animation</b>
+      </p>
+      <p class="code">animation: moverCaja infinite alternate ease-in-out 2s</p>
+    </main>
+  </body>
+</html>

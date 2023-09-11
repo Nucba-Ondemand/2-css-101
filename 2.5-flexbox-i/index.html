@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="https://renderer-v2.vercel.app/_next/image?url=https%3A%2F%2Fapi.typedream.com%2Fv0%2Fdocument%2Fpublic%2Fac4f6f0d-8160-4e58-9d18-cb5e7c880fb6_Recurso_32_png.png&w=384&q=75" />
+  <!-- Estilos Base -->
+  <link rel="stylesheet"
+    href="https://res.cloudinary.com/dcatzxqqf/raw/upload/v1659451742/coding/Dise%C3%B1oWebCDN/cdn_1_sjhqe3.css" />
+  <!-- Estilos Clase -->
+  <link rel="stylesheet" href="style.css" />
+  <title>Flexbox I</title>
+</head>
+
+<body>
+  <main class="max-width">
+    <h1>
+      Flexbox I
+
+    </h1>
+    <section class="info-clase">
+      <div class="container-flex max-width">
+        <h2>Flex direction</h2>
+        <p>Definimos la direccion del flex</p>
+        <!-- flex direction -->
+        <div class="bg-secondary my">
+          <!-- Row -->
+          <p>row (por defecto)</p>
+
+          <div class="row">
+            <div class="caja-flex">
+              <p>1</p>
+            </div>
+            <div class="caja-flex">
+              <p>2</p>
+            </div>
+            <div class="caja-flex">
+              <p>3</p>
+            </div>
+          </div>
+        </div>
+        <!-- reverse -->
+        <div class="bg-secondary my">
+          <p class="my">row-reverse</p>
+
+          <div class="row reverse">
+            <div class="caja-flex">
+              <p>1</p>
+            </div>
+            <div class="caja-flex">
+              <p>2</p>
+            </div>
+            <div class="caja-flex">
+              <p>3</p>
+            </div>
+          </div>
+        </div>
+        <!-- column -->
+        <div class="bg-secondary my">
+          <p class="my">column</p>
+
+          <div class="column">
+            <div class="caja-flex">
+              <p>1</p>
+            </div>
+            <div class="caja-flex">
+              <p>2</p>
+            </div>
+            <div class="caja-flex">
+              <p>3</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-secondary my">
+          <!-- column reverse -->
+          <p class="my">column-reverse</p>
+
+          <div class="column col-reverse">
+            <div class="caja-flex">
+              <p>1</p>
+            </div>
+            <div class="caja-flex">
+              <p>2</p>
+            </div>
+            <div class="caja-flex">
+              <p>3</p>
+            </div>
+          </div>
+        </div>
+        <!-- flex wrap -->
+        <hr class="hr" />
+        <h2>Flex Wrap</h2>
+        <p>
+          Por defecto todos los elementos flex ocupan una sola linea(nowrap).
+        </p>
+        <div class="bg-secondary my wrap-container">
+          <!-- wrap -->
+          <div class="flex-column">
+            <p>wrap</p>
+
+            <div class="wrap">
+              <div class="caja-flex">
+                <p>1</p>
+              </div>
+              <div class="caja-flex">
+                <p>2</p>
+              </div>
+              <div class="caja-flex">
+                <p>3</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- nowrap -->
+          <div class="flex-column">
+            <p>nowrap</p>
+
+            <div class="no-wrap">
+              <div class="caja-flex">
+                <p>1</p>
+              </div>
+              <div class="caja-flex">
+                <p>2</p>
+              </div>
+              <div class="caja-flex">
+                <p>3</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="hr" />
+        <!-- flex-flow -->
+        <div class="flex-flow">
+          <h2>Flex flow</h2>
+          <p class="my">
+            Basicamente abrevia <span class="code">flex-direction</span> y
+            <span class="code">flex-wrap</span>
+          </p>
+        </div>
+        <hr class="hr" />
+        <!-- justify-content -->
+        <div class="justify-content">
+          <h2>justify-content 🤩</h2>
+          <p>
+            Con esta prop definimos la alineacion a lo largo del eje
+            principal.
+          </p>
+          <!-- flex-start -->
+          <div class="bg-secondary my">
+            <p>flex-start</p>
+
+            <div class="jc-start">
+              <div class="caja-flex">
+                <p>1</p>
+              </div>
+              <div class="caja-flex">
+                <p>2</p>
+              </div>
+              <div class="caja-flex">
+                <p>3</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- flex end -->
+          <div class="bg-secondary my">
+            <p class="my">flex-end</p>
+
+            <div class="jc-end">
+              <div class="caja-flex">
+                <p>1</p>
+              </div>
+              <div class="caja-flex">
+                <p>2</p>
+              </div>
+              <div class="caja-flex">
+                <p>3</p>
+              </div>
+            </div>
+          </div>
+          <!-- center -->
+          <div class="bg-secondary my">
+            <p class="my">center</p>
+
+            <div class="jc-center">
+              <div class="caja-flex">
+                <p>1</p>
+              </div>
+              <div class="caja-flex">
+                <p>2</p>
+              </div>
+              <div class="caja-flex">
+                <p>3</p>
+              </div>
+            </div>
+          </div>
+          <!-- space between -->
+
+          <div class="bg-secondary my">
+            <p class="my">space-between</p>
+
+            <div class="jc-between">
+              <div class="caja-flex">
+                <p>1</p>
+              </div>
+              <div class="caja-flex">
+                <p>2</p>
+              </div>
+              <div class="caja-flex">
+                <p>3</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- space around -->
+          <div class="bg-secondary my">
+            <p class="my">space-around</p>
+
+            <div class="jc-around">
+              <div class="caja-flex">
+                <p>1</p>
+              </div>
+              <div class="caja-flex">
+                <p>2</p>
+              </div>
+              <div class="caja-flex">
+                <p>3</p>
+              </div>
+            </div>
+          </div>
+          <!-- space around -->
+          <div class="bg-secondary my">
+            <p class="my">center</p>
+            <div class="jc-center">
+              <div class="caja-flex">
+                <p>1</p>
+              </div>
+              <div class="caja-flex">
+                <p>2</p>
+              </div>
+              <div class="caja-flex">
+                <p>3</p>
+              </div>
+            </div>
+          </div>
+          <!-- space evenly-->
+          <div class="bg-secondary my">
+            <p class="my">space-evenly</p>
+
+            <div class="jc-evenly">
+              <div class="caja-flex">
+                <p>1</p>
+              </div>
+              <div class="caja-flex">
+                <p>2</p>
+              </div>
+              <div class="caja-flex">
+                <p>3</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

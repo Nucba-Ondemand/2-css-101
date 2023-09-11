@@ -1,0 +1,33 @@
+/* first-letter */
+.first-letter::first-letter {
+    background: var(--purple);
+    font-size: 1.5rem;
+  }
+  
+  /* first-line */
+  .first-line::first-line {
+    background: var(--purple);
+  }
+  
+  /* before */
+  .before::before {
+    content: '(🤩) ';
+  }
+  
+  /* after */
+  .after::after {
+    content: ' (🍕)';
+  }
+  
+  /* placeholder */
+  .input-placeholder {
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+  }
+  
+  .input-placeholder::placeholder {
+    background: cornflowerblue;
+    color: white;
+  }
+  

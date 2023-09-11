@@ -1,0 +1,55 @@
+.caja {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: #6b7280;
+}
+
+.caja-mediana {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: #e11d48;
+  margin-bottom: 20px;
+  /* Agregar este font-size al explicar unidades relativas */
+  font-size: 10px;
+}
+.caja-grande {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: #8c54fb;
+}
+
+/* unidades relativas */
+
+.em {
+  /* Caja mediana tiene 10px de font-size por lo que el em en este ejmplo serian 20px(2em) */
+  font-size: 2em;
+}
+
+.rem {
+  /* Este font-size son 32px porque el html por defecto tiene 16px de font-size */
+  font-size: 2rem;
+}
+
+.porcentaje {
+  width: 50%;
+  height: 50%;
+  background-color: #8c54fb;
+}
+
+.vh {
+  /* No esta relacionado a la caja si no al viewport */
+  height: 10vh;
+  background-color: #8c54fb;
+}
+
+.vw {
+  /* No esta relacionado a la caja si no al viewport */
+  width: 10vw;
+  background-color: #8c54fb;
+}

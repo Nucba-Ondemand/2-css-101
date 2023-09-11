@@ -1,0 +1,34 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background: var(--rose);
+  border-radius: 15px;
+}
+
+.box:nth-child(2) {
+  background: var(--purple);
+}
+
+.relative {
+  position: relative;
+  left: 500px;
+}
+
+.absolute-container {
+  position: relative;
+  height: 100px;
+}
+
+.absolute {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 50%;
+  background-color: greenyellow !important;
+}

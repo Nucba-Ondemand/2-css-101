@@ -1,0 +1,11 @@
+.en-bloque {
+  border: 1px solid crimson;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.inline {
+  border: 1px solid crimson;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}

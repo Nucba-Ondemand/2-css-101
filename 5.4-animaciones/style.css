@@ -1,0 +1,36 @@
+.caja {
+  width: 200px;
+  height: 200px;
+  background: var(--rose);
+  border-radius: 1rem;
+}
+
+.animada {
+  /* animation-name: moverCaja;
+  animation-duration: 1s;
+  animation-iteration-count: infinite; */
+  animation: moverCaja 1s infinite alternate 2s;
+}
+
+.alternada {
+  animation-direction: alternate;
+}
+
+.timing {
+  animation-timing-function: ease-in-out;
+  /* animation-delay: 1s; */
+}
+
+.paused:hover {
+  animation-play-state: paused;
+}
+
+@keyframes moverCaja {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(500px);
+  }
+}

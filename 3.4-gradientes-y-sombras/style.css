@@ -1,0 +1,93 @@
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sombras {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fondos {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .fondoRadial{
+    background: radial-gradient(#f69d3c, #3f87a6);
+  }
+
+  .fondoRepeat{
+    background: repeating-linear-gradient(#f69d3c, #3f87a6 50px);
+  }
+
+  .fondoGrados{
+    background: linear-gradient(70deg, black, white);
+  }
+
+  .fondoLineal{
+    background: linear-gradient(to right, #d7d2cc, #304352);
+  }
+
+  .texto {
+    border: 2px solid #8c54fb;
+    background: linear-gradient(to right, #c31432, #240b36);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  .ambos {
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  }
+
+  .ambos span {
+    background: linear-gradient(to right, #f12711, #f5af19);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  }
+
+  .offsetXY {
+    background-color: #413f3f;
+    box-shadow: 10px 10px;
+  }
+
+  .blurRadius {
+    background-color: #535252;
+    box-shadow: 10px 10px 5px;
+  }
+
+  .spreadRadius {
+    background-color: #535252;
+      box-shadow: 10px 10px 5px 5px 
+  }
+
+ .color {
+    background-color: #535252;
+    box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+  }
+
+  .inset {
+    background-color: #535252;
+    box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+
+ 

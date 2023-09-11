@@ -1,0 +1,56 @@
+.caja {
+  width: 200px;
+  height: 200px;
+  background: var(--rose);
+  border-radius: 1rem;
+}
+
+.transition {
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.transition:hover {
+  background: var(--purple);
+  width: 150px;
+  height: 150px;
+}
+
+/* timing-function */
+.transition-timing {
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  /* transition-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53); */
+}
+
+.transition-timing:hover {
+  background: var(--purple);
+  width: 150px;
+  height: 150px;
+}
+
+/* transition-delay */
+.transition-delay {
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  transition-delay: 0.5s;
+}
+
+.transition-delay:hover {
+  background: var(--purple);
+  width: 150px;
+  height: 150px;
+}
+
+/* shorthand */
+.transition-shorthand {
+  transition: all 0.5s linear;
+}
+
+.transition-shorthand:hover {
+  background: var(--purple);
+  width: 150px;
+  height: 150px;
+}

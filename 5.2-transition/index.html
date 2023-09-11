@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://renderer-v2.vercel.app/_next/image?url=https%3A%2F%2Fapi.typedream.com%2Fv0%2Fdocument%2Fpublic%2Fac4f6f0d-8160-4e58-9d18-cb5e7c880fb6_Recurso_32_png.png&w=384&q=75"
+    />
+    <!-- Estilos Base -->
+    <link
+      rel="stylesheet"
+      href="https://res.cloudinary.com/dcatzxqqf/raw/upload/v1659451742/coding/Dise%C3%B1oWebCDN/cdn_1_sjhqe3.css"
+    />
+    <!-- Estilos Clase -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Transiciones</title>
+  </head>
+  <body>
+    <main class="max-width">
+      <h1>
+        Transiciones
+        <img
+          src="https://renderer-v2.vercel.app/_next/image?url=https%3A%2F%2Fapi.typedream.com%2Fv0%2Fdocument%2Fpublic%2Fac4f6f0d-8160-4e58-9d18-cb5e7c880fb6_Recurso_32_png.png&w=384&q=75"
+          alt="logo"
+          class="logo"
+        />
+      </h1>
+      <section class="info-clase">
+        <h2>Transiciones</h2>
+        <h3 class="my">Propiedades de transición</h3>
+        <b>transition-property</b>
+        <p class="my">Propiedades CSS afectadas por la transicion</p>
+        <p class="code">transition-property: all | none | propiedad css</p>
+
+        <b>transition-duration</b>
+        <p class="my">Tiempo de duración de la transición.</p>
+        <p class="code">transition-duration: 0 | 0.5s</p>
+        <div class="bg-secondary my flex">
+          <div class="caja transition"></div>
+        </div>
+        <b>transition-timing-function</b>
+        <p class="my">Curva de la transición</p>
+        <p class="code">
+          transition-timing-function: ease | ease-in | ease-out
+        </p>
+        <div class="bg-secondary my flex">
+          <div class="caja transition-timing"></div>
+        </div>
+
+        <b>transition-delay</b>
+        <p class="my">Tiempo de delay de la transición</p>
+        <p class="code">transition-delay: 0 | .15s</p>
+        <div class="bg-secondary my flex">
+          <div class="caja transition-delay"></div>
+        </div>
+        <b>Shorthand de transition</b>
+        <p class="my">Podemos resumir todas las propiedades en una sola.</p>
+        <p class="code">transition: all 0.5s ease;</p>
+        <div class="bg-secondary my flex">
+          <div class="caja transition-shorthand"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

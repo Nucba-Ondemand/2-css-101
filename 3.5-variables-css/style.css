@@ -1,0 +1,66 @@
+:root {
+    /* Colores */
+    --background: #02050e;
+    --purple: #8c54fb;
+    --rose: #e11d48;
+    --light-gray: #9ca3af;
+
+    /* Font-size */
+    --small: 12px;
+    --medium: 18px;
+    --large: 24px;
+    --extraLarge: 32px;
+
+    /* Box-Shadow */
+    --mi-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+    --inset-shadow: inset 10px 10px 20px 0px rgba(0,0,0,0.75);
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-gray);
+  }
+
+.row {
+    display: flex;
+    gap: 25px;
+}
+
+.small {
+    font-size: var(--small);
+}
+
+.medium {
+    font-size: var(--medium);
+}
+
+.large {
+    font-size: var(--large);
+}
+
+.extraLarge {
+    font-size: var(--extraLarge);
+}
+
+.purple {
+    background-color: var(--purple);
+    font-size: var(--medium);
+}
+
+.rose {
+    background-color: var(--rose);
+    font-size: var(--medium);
+}
+
+.shadow {
+    box-shadow: var(--mi-shadow);
+}
+
+.inset-shadow {
+    box-shadow: var(--inset-shadow);
+}

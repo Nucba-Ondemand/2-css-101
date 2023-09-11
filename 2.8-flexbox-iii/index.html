@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="https://renderer-v2.vercel.app/_next/image?url=https%3A%2F%2Fapi.typedream.com%2Fv0%2Fdocument%2Fpublic%2Fac4f6f0d-8160-4e58-9d18-cb5e7c880fb6_Recurso_32_png.png&w=384&q=75" />
+  <!-- Estilos Base -->
+  <link rel="stylesheet"
+    href="https://res.cloudinary.com/dcatzxqqf/raw/upload/v1659451742/coding/Dise%C3%B1oWebCDN/cdn_1_sjhqe3.css" />
+  <!-- Estilos Clase -->
+  <link rel="stylesheet" href="style.css" />
+  <title>Flexbox III</title>
+</head>
+
+<body>
+  <main class="max-width">
+    <h1>
+      Flexbox III
+
+    </h1>
+
+
+    <h2>Propiedades para los hijos</h2>
+    <div class="order">
+      <h2>order</h2>
+      <p>
+        Con esta prop podemos modificar el orden en el que aparecen en el
+        contenedor.
+      </p>
+      <div class="bg-secondary my">
+        <div class="ai-stretch my props-align">
+          <div class="caja-flex order-1">
+            <p>1</p>
+          </div>
+          <div class="caja-flex order-2">
+            <p>2</p>
+          </div>
+          <div class="caja-flex order-3">
+            <p>3</p>
+          </div>
+        </div>
+      </div>
+      <hr class="hr" />
+      <h2>flex-grow</h2>
+      <p>
+        Con esta prop determinamos el espacio que ocupa dentro del
+        contenedor
+      </p>
+      <div class="bg-secondary my">
+        <div class="ai-stretch my props-align">
+          <div class="caja-flex grow-1">
+            <p>1</p>
+          </div>
+          <div class="caja-flex">
+            <p>2</p>
+          </div>
+          <div class="caja-flex">
+            <p>3</p>
+          </div>
+        </div>
+      </div>
+      <hr class="hr" />
+      <h2>flex-shrink</h2>
+      <p>Especificamos el valor de concentracion de un item.</p>
+      <div class="bg-secondary my">
+        <div class="shrink my props-shrink">
+          <div class="caja-flex shrink-1">
+            <p>1</p>
+          </div>
+          <div class="caja-flex shrink-2">
+            <p>2</p>
+          </div>
+          <div class="caja-flex shrink-3">
+            <p>3</p>
+          </div>
+        </div>
+      </div>
+      <hr class="hr" />
+      <h2>flex-basis</h2>
+      <p>
+        Con esta prop especificamos la base flexible, es el tamaño inicial
+        de un item.
+      </p>
+
+      <div class="bg-secondary my">
+        <div class="basis my">
+          <div class="caja-flex basis-1">
+            <p>1</p>
+          </div>
+          <div class="caja-flex basis-2">
+            <p>2</p>
+          </div>
+          <div class="caja-flex basis-3">
+            <p>3</p>
+          </div>
+        </div>
+      </div>
+      <hr class="hr" />
+      <h2>align-self</h2>
+      <p>
+        Y por último tenemos la prop de align-self, donde podemos anular
+        la alineacion default
+      </p>
+      <div class="bg-secondary my">
+        <div class="self my props-align">
+          <div class="caja-flex self-1">
+            <p>1</p>
+          </div>
+          <div class="caja-flex self-2">
+            <p>2</p>
+          </div>
+          <div class="caja-flex self-3">
+            <p>3</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </section>
+  </main>
+</body>
+
+</html>

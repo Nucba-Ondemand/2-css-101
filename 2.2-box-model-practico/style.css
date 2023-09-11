@@ -1,0 +1,73 @@
+/* overflow */
+.overflow-box {
+  width: 100px;
+  height: 100px;
+  background-color: var(--rose);
+  border-radius: 1rem;
+}
+
+.visible {
+  overflow: visible;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.scroll {
+  overflow: scroll;
+}
+
+.auto {
+  overflow: auto;
+}
+
+/* Padding */
+.padding {
+  width: 100px;
+  border-radius: 1rem;
+  background-color: var(--rose);
+  /* padding: 25px; */
+  /* padding: 15px 30px; */
+  /* padding: 25px 10px 50px; */
+  padding: 10px 5px 20px 15px;
+}
+/* Border  */
+.border {
+  border: 5px solid var(--purple);
+  padding: 5px;
+  margin-bottom: 32px;
+}
+
+.dashed {
+  border: 5px dashed var(--purple);
+  padding: 5px;
+  margin-bottom: 32px;
+}
+.dotted {
+  border: 5px dotted var(--purple);
+  padding: 5px;
+  margin-bottom: 32px;
+}
+.double {
+  border: 5px double var(--purple);
+  padding: 5px;
+  margin-bottom: 32px;
+}
+
+/* margin */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: var(--rose);
+  border-radius: 1rem;
+}
+
+.box:nth-child(2) {
+  background: var(--purple);
+}
+
+.margin {
+  margin: 10px;
+  margin: 10px 5px 20px 15px;
+}
